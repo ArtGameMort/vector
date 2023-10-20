@@ -119,8 +119,7 @@ int menu() {
     std::cout << "2 - Вывод массива" << std::endl;
     std::cout << "3 - Добавления элемента в конец" << std::endl;
     std::cout << "4 - Размер" << std::endl;
-    std::cout << "5 - Очистка" << std::endl;
-    std::cout << "6 - Выход из программы" << std::endl;
+    std::cout << "5 - Выход из программы" << std::endl;
     std::cin >> command;
     return command;
 }
@@ -157,11 +156,6 @@ int main() {
             break;
         }
         case 5:
-        {
-            data.~my_vector();
-            break;
-        }
-        case 6:
             std::cout << "Хорошего дня!!! " << std::endl;
             std::cout << "Спасибо, что пользовались нашей программой! " << std::endl;
             std::cout << "До свидания! " << std::endl;
